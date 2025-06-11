@@ -1,6 +1,5 @@
-// Services/LoanRateService.cs
-using LoanRatesAPI.Models;  // Add this line at the top
-using LoanRatesAPI.Services.Interfaces;  // And this one
+using LoanRatesAPI.Models; 
+using LoanRatesAPI.Services.Interfaces; 
 
 namespace LoanRatesAPI.Services;
 

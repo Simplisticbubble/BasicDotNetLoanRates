@@ -1,4 +1,3 @@
-// Controllers/RatesController.cs
 using LoanRatesAPI.Models;
 using LoanRatesAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +10,7 @@ public class RatesController : ControllerBase
 {
     private readonly ILoanRateService _loanRateService;
 
-    // Dependency injection (SOLID's Dependency Inversion)
+    // Dependency injection
     public RatesController(ILoanRateService loanRateService)
     {
         _loanRateService = loanRateService;
