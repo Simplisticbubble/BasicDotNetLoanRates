@@ -30,3 +30,4 @@ D:\GITHUB\Mortgage Homes\obj\Debug\net8.0\refint\LoanRatesAPI.dll
 D:\GITHUB\Mortgage Homes\obj\Debug\net8.0\LoanRatesAPI.pdb
 D:\GITHUB\Mortgage Homes\obj\Debug\net8.0\LoanRatesAPI.genruntimeconfig.cache
 D:\GITHUB\Mortgage Homes\obj\Debug\net8.0\ref\LoanRatesAPI.dll
+D:\GITHUB\Mortgage Homes\obj\Debug\net8.0\LoanRatesAPI.sourcelink.json

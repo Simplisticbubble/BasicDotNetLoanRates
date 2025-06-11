@@ -12,5 +12,13 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 app.MapControllers();
-
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/api/rates?loanType=owner-occupied&term=30");
+        return;
+    }
+    await next();
+});
 app.Run();
