@@ -14,3 +14,7 @@ Returns loan rate information based on parameters.
 **Example Request:**
 
 GET: http://localhost:5000/api/rates?loanType=owner-occupied&term=30
+
+**Run Server**
+
+dotnet run
